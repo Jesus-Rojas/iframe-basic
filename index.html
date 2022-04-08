@@ -7,27 +7,61 @@
   <title>Document</title>
 </head>
 <body>
+  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores numquam tenetur reprehenderit? Mollitia reiciendis sit soluta nostrum consectetur voluptate odit cum dolorum nisi eveniet id, explicabo eligendi fuga rerum totam.
+  Fugiat inventore quas velit minima ipsum quos ducimus, sit saepe beatae quae sunt nemo dolor necessitatibus distinctio. Iste voluptate totam inventore nihil rerum, optio tempore amet quos ab, dolor ipsa.
+  Veniam quidem ipsum blanditiis quas repudiandae aut exercitationem magnam, minus rem corporis distinctio non repellat dicta perspiciatis. Rem dignissimos autem eveniet eum debitis sit quasi assumenda accusamus deleniti! Aperiam, consectetur?
+  Voluptas deleniti eaque deserunt officia vero, expedita ab dolore amet, omnis aliquid perspiciatis ex fugit. Animi magni possimus facere porro ab nostrum impedit dolor! Enim voluptatem suscipit adipisci soluta labore?
+  Quasi aspernatur minus nulla atque voluptatibus? Ut nisi, ullam repudiandae reprehenderit officiis earum eius recusandae unde ad id voluptatem ipsam at aliquam repellat, totam sint culpa. Necessitatibus perspiciatis voluptate quas.
+  <br><br>
+  <div class="position-relative">
+    <div class="float-element">
+      <iframe id="myframe" src="https://docs.google.com/forms/d/e/1FAIpQLSde8hCqq9NkbH2AJt4LVhlOQEfq5c6IZ3zPs-D6gctYSFJ5QQ/viewform?embedded=true" frameborder="0" onload="sizeIframe(this)"></iframe>
+      <div class="float-clone">
 
-  <iframe id="iframe-google" src="https://docs.google.com/forms/d/e/1FAIpQLSde8hCqq9NkbH2AJt4LVhlOQEfq5c6IZ3zPs-D6gctYSFJ5QQ/viewform?embedded=true" frameborder="0" onload="sizeIframe(this)"></iframe>
+      </div>
+  </div>
+  </div>
+  <br><br>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur reprehenderit quo et adipisci quisquam exercitationem temporibus ad nostrum dolorem quidem sunt recusandae, voluptatum saepe consequuntur, tempora, blanditiis nihil! Quis, aperiam.
+  Totam officiis et id recusandae voluptate repellat? Dignissimos consequatur, esse impedit illo corrupti dolores natus voluptates non nobis? Dolorem et magnam tempora ipsum commodi vitae iure nobis dolores dolor aperiam!
+  Voluptas earum similique nihil reprehenderit accusantium assumenda facere mollitia? Autem, ut! Quos, quisquam natus eveniet expedita illo amet totam tenetur itaque? Culpa quo commodi, accusamus veniam odit quos repudiandae consectetur.
+  Officia aliquid ipsum rerum non neque aperiam ipsam quia! Corporis, nam vel a quisquam quas cumque eum est facilis provident assumenda, velit nulla ab autem in quidem illum voluptatem? Maiores.
+  Vel, eum exercitationem, perspiciatis illum tempora facere in, blanditiis dolor recusandae labore at animi perferendis nisi aliquid. Cumque quod doloribus, officiis non est molestiae repudiandae error sapiente vel quo ut.
+  Voluptatem cumque aliquid ab saepe id sint eius? Natus culpa fuga cupiditate ea, voluptatum quisquam perferendis molestiae animi sapiente corrupti doloribus possimus fugit iste aperiam, enim voluptate repudiandae repellendus iure.
+  Pariatur hic, ad enim sit harum, doloribus adipisci soluta itaque id sequi, dolores quo praesentium possimus voluptatem. Mollitia ex officia esse. Beatae pariatur magnam odit dolore odio libero unde accusantium?
+  Reprehenderit vitae asperiores voluptatum nam consectetur quibusdam porro incidunt minus, pariatur sit nulla iusto temporibus ipsa quisquam neque rerum laboriosam id quos inventore dignissimos cupiditate nostrum voluptas? Corporis, nam nobis!
+  Sapiente temporibus dolorum minima eos, sit dicta neque eius ipsum fuga quis suscipit aspernatur porro culpa ab ea, omnis ut voluptate unde itaque praesentium repellendus numquam? Necessitatibus minima praesentium molestiae?
+  Similique distinctio consectetur id nesciunt amet. Modi dolor aspernatur exercitationem debitis voluptate. Ut, mollitia obcaecati at saepe error nostrum voluptates suscipit iste consectetur iusto corrupti qui voluptatem ad in cumque.
   <style>
-    #iframe-google {
-      width: 100%;
-      /* float: left; */
+    .float-clone {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 18px;
+      background-color: #fff;
+      float: right;
       height: 100vh;
-      /* height: 1695px; */
     }
-    body::-webkit-scrollbar {
-      width: 12px;               /* width of the entire scrollbar */
+    .relative-element {
+      position: relative;
+      width: 100%;
+    }
+    .float-element{
+        position:absolute;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+    }
+    #myframe {
+      height:100%;
+      width:100%;
     }
 
-    body::-webkit-scrollbar-track {
-      background: orange;        /* color of the tracking area */
-    }
-
-    body::-webkit-scrollbar-thumb {
-      background-color: blue;    /* color of the scroll thumb */
-      border-radius: 20px;       /* roundness of the scroll thumb */
-      border: 3px solid orange;  /* creates padding around scroll thumb */
+    .position-relative{
+      position: relative;
+      width: 100%;
+      height: 100vh;
     }
   </style>
   <script>
